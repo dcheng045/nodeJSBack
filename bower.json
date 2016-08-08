@@ -1,0 +1,22 @@
+{
+  "name": "framework",
+  "version": "0.0.0",
+  "moduleType": [
+    "amd"
+  ],
+  "description": "use nodeJS as backend to try front end techs",
+  "main": "index.js",
+  "authors": [
+    "Debbie <chengchao.strong@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

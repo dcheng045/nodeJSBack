@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+<title>child</title>
+<script>
+    document.domain = "wwwcomy.com";
+    function childFunction() {
+        alert('function in child');
+    }
+
+    function callParent() {
+        parent.parentFunction();
+    }
+</script>
+</head>
+<body>
+<input type="button" name="call parent" value="call parent" onclick="callParent()"/>
+<br/><br/>
+</body>
+</html>
